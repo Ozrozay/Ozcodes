@@ -9,7 +9,7 @@ class FlaskAppTestCase(unittest.TestCase):
 
     def test_home(self):
         # Send a GET request to the home page
-        response = self.app.get('/')
+        response = self.app.get('g')
        
         # Check if the status code is 200 (OK)
         self.assertEqual(response.status_code, 200)
